@@ -10,7 +10,7 @@ name: Build aarch64
 jobs:
   build:
     name: Build
-    runs-on: [self-hosted, macOS, arm64]
+    runs-on: [macOS, arm64]
     defaults:
       run:
         shell: "/usr/bin/arch -arch arm64e /bin/bash -l {0}"
